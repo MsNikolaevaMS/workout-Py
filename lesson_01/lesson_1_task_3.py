@@ -1,5 +1,4 @@
-first_name="Marina"
-last_name="Nikolaeva"
+first_name = input("Ваше имя: ")
+last_name = input("Ваша фамилия: ")
 
-pet_name = input("Вас зовут:" )
-print(first_name, last_name)
+print(f"Вас зовут: {last_name} {first_name}")
