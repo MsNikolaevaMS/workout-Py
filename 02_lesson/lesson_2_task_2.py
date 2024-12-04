@@ -1,9 +1,9 @@
-cis_year_leap = input("Введите год:  ")
-year = int(cis_year_leap)
+def is_year_leap(year):
+    return "True" if year % 4 == 0 else "False"
 
-def (n):
-    for i in range(1, n + 1):
-        if i % 4 == 0:
-            print(f"{i} - True")
-        else:
-            print("False")
+
+num = int(input("Введите год: "))
+result = is_year_leap(num)
+
+
+print(f"год {num}: - {result}")
